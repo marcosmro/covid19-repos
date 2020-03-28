@@ -1,6 +1,8 @@
 ---
 title: blogc
 repo: blogc/blogc
+repohost: github
+twitter: bla
 homepage: https://blogc.rgm.io/
 language:
   - C

@@ -148,9 +148,9 @@ const Card = props => {
           <DataPoint key={field.name} value={props[field.name]} label={field.label} />
         ))}
       </CardBodyLink>
-      {startertemplaterepo && (
-        <DeployButton repo={getStarterTemplateRepoUrl(startertemplaterepo)} />
-      )}
+      {/*{startertemplaterepo && (*/}
+      {/*  <DeployButton repo={getStarterTemplateRepoUrl(startertemplaterepo)} />*/}
+      {/*)}*/}
     </CardContainer>
   )
 }

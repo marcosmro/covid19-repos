@@ -1,7 +1,7 @@
 {
-  "name": "staticgen",
+  "name": "covid19repos",
   "private": true,
-  "description": "StaticGen.com, a list of static site generators for JAMstack sites.",
+  "description": "covid19repos.com, a list of GitHub repositories with relevant COVID-19 resources.",
   "version": "3.0.0",
   "author": "@Netlify",
   "dependencies": {

@@ -62,7 +62,7 @@ const Hero = ({ siteTitle, shareUrl, shareText }) => (
         <LogoText>{siteTitle}</LogoText>
       </LogoLink>
     </HeroHeading>
-    <HeroSubheading>A List of Static Site Generators for JAMstack Sites</HeroSubheading>
+    <HeroSubheading><b>A List of GitHub Repos with Relevant COVID-19 Resources</b></HeroSubheading>
 
     <ShareButtonGroup>
       {['twitter', 'reddit'].map(type => (
@@ -71,7 +71,7 @@ const Hero = ({ siteTitle, shareUrl, shareText }) => (
     </ShareButtonGroup>
 
     <GitHubCorner
-      href="https://github.com/netlify/staticgen"
+      href="https://github.com/marcosmro/covid19-repos"
       bannerColor="#313d3e"
       size="100"
       svgStyle={{ zIndex: 300 }}

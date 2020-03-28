@@ -140,7 +140,8 @@ const IndexPage = ({ data }) => {
         <ProjectCard fields={siteMeta.fields} {...project} />
       </li>
     ))
-    list.splice(3, 0, <PromoCard key="promo" dangerouslySetInnerHTML={{ __html: promoText }} />)
+    // list.splice(3, 0, <PromoCard key="promo" dangerouslySetInnerHTML={{ __html: promoText }} />)
+    list.splice(3, 0)
     return list
   }
 

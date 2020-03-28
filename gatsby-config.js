@@ -25,10 +25,9 @@ module.exports = {
     shareTextProjectStart: 'Check out ',
     shareTextProjectEnd: ', an open source static site generator on the staticgen.com leaderboard.',
     footerMarkdown: oneLine`
-      StaticGen is hosted and maintained by [Netlify](https://www.netlify.com), the perfect way to
-      deploy your JAMstack sites and apps.
+      COVID19repos.com is ... .
     `,
-    copyrightName: 'Netlify',
+    copyrightName: 'MMR',
     promoMarkdown: stripIndent`
       ## Get started with one click!
 

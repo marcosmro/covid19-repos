@@ -1,12 +1,12 @@
-# staticgen.com
+# covid19repos.com
 
-[staticgen.com](http://staticgen.com), a leaderboard of top open-source static site generators.
+[staticgen.com](http://covid19repos.com), a list of GitHub repositories with relevant COVID-19 resources.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/388637c1-8040-4b2d-84b4-1cfa38cd62bb/deploy-status)](https://app.netlify.com/sites/staticgen/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3d1394c8-af2f-46f0-bf95-b09acad4f0e8/deploy-status)](https://app.netlify.com/sites/eloquent-ramanujan-c89adb/deploys)
 
 ## Contributing
 
-Missing a static site generator here? Just fork the repo and add your generator
+Missing a relevant COVID-19 resource here? Just fork the repo and add your generator
 as a `<name>.md` in the `content/projects` folder.
 
 Make sure to follow the following rules:
@@ -37,7 +37,7 @@ locally, you can set these in a `.env` file at the root of the repo.
 
 ```
 GITHUB_TOKEN=examplekey123abc
-GITLAB_TOKEN-examplekey123abc
+GITLAB_TOKEN=examplekey123abc
 TWITTER_CONSUMER_KEY=examplekey231abc
 TWITTER_CONSUMER_SECRET=examplekey321abc
 TWITTER_ACCESS_TOKEN_KEY=examplekey231abc

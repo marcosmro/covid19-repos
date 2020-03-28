@@ -79,21 +79,17 @@ const Layout = ({ projectTitle, projectUrl, projectId, children }) => {
   return (
     <>
       <Global styles={globalStyles} />
-   
-      <Banner>
-        Share your JAMstack technology decisions and experiences. <a href="https://www.surveymonkey.com/r/DH9KZZT" target="_blank" rel="noopener noreferrer">Take&nbsp;the&nbsp;survey&nbsp;by&nbsp;April&nbsp;19</a>
-      </Banner>
 
       <Hero siteTitle={data.site.siteMetadata.title} shareText={shareText} shareUrl={shareUrl} />
       <Nav>
         <NavLink to="/about">About</NavLink>
         <NavLink to="/contribute">Contribute</NavLink>
-        <NavAnchor href="https://jamstack.org" target="_blank" rel="noopener noreferrer">
-          About JAMstack
-        </NavAnchor>
-        <NavAnchor href="https://headlesscms.org" target="_blank" rel="noopener noreferrer">
-          Need a Static CMS?
-        </NavAnchor>
+        {/*<NavAnchor href="https://jamstack.org" target="_blank" rel="noopener noreferrer">*/}
+        {/*  About JAMstack*/}
+        {/*</NavAnchor>*/}
+        {/*<NavAnchor href="https://headlesscms.org" target="_blank" rel="noopener noreferrer">*/}
+        {/*  Need a Static CMS?*/}
+        {/*</NavAnchor>*/}
       </Nav>
       <Container>{children}</Container>
       <Footer footerHtml={footerHtml} copyrightName={data.site.siteMetadata.copyrightName} />
