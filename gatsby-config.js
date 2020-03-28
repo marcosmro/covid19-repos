@@ -7,8 +7,8 @@ const description = oneLine`
 
 module.exports = {
   siteMetadata: {
-    url: 'https://staticgen.com',
-    title: `StaticGen`,
+    url: 'http://covid19repos.com',
+    title: `COVID-19 Repos`,
     description: oneLine`
       Kick off your next, great Gatsby project with this default starter. This barebones starter
       ships with the main Gatsby configuration files you might need.
@@ -17,7 +17,7 @@ module.exports = {
     image: 'https://staticgen.com/images/staticgen.png',
     repo: 'https://github.com/netlify/staticgen',
     homeTitle: 'StaticGen | Top Open Source Static Site Generators',
-    subtitle: 'A List of Static Site Generators for JAMstack Sites',
+    subtitle: 'A list of GitHub repos with relevant COVID-19 resources',
     description,
     socialPreviewImageFilename: 'staticgen.png',
     shareButtons: ['twitter', 'reddit'],
