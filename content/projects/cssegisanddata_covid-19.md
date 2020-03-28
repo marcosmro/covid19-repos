@@ -8,7 +8,7 @@ type:
 language:
   - N/A
 format:
-  - N/A
+  - CSV
 license:
   - N/A
 description: Data repository for the 2019 Novel Coronavirus Visual Dashboard operated by the Johns Hopkins University Center for Systems Science and Engineering.

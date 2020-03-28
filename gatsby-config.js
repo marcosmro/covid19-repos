@@ -25,7 +25,7 @@ module.exports = {
     shareTextProjectStart: 'Check out ',
     shareTextProjectEnd: ', a leaderboard of COVID-19 projects and resources.',
     footerMarkdown: oneLine`
-      COVID19repos.com is ... .
+      COVID19repos.com - Keep calm and carry on!
     `,
     copyrightName: 'M2R',
     promoMarkdown: stripIndent`
