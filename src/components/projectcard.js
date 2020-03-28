@@ -90,7 +90,6 @@ const Card = props => {
     id,
     title,
     description,
-    startertemplaterepo,
     fields,
     stats: { stars, issues, forks, followers } = {},
     previousStats: {

@@ -190,6 +190,7 @@ export const query = graphql`
           id
           forks
           issues
+          followers
           stars
         }
       }
