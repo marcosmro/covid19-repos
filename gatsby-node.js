@@ -149,7 +149,7 @@ async function getProjectData(graphql) {
           days
           projects {
             id
-            followers
+            
             stars
           }
         }

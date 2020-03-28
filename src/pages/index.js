@@ -187,7 +187,7 @@ export const query = graphql`
         days
         projects {
           id
-          followers
+         
           forks
           issues
           stars
