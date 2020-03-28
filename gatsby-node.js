@@ -44,7 +44,7 @@ exports.sourceNodes = async ({
   const filenames = await readdir(`${__dirname}/${projectsPath}`)
   const mapFilenames = async filename => {
     const file = await readFile(`${__dirname}/${projectsPath}/${filename}`, 'utf8')
-    const { repo, repohost, twitter } = matter(file).data
+    const { repo, twitter } = matter(file).data
     const id = filename.slice(0, -3).toLowerCase()
     if (!repo) {
       console.error(oneLine`
@@ -53,7 +53,7 @@ exports.sourceNodes = async ({
       `)
       return
     }
-    return pickBy({ id, repo, repohost, twitter }, v => v)
+    return pickBy({ id, repo, twitter }, v => v)
   }
   const projectsMeta = compact(await Promise.all(filenames.map(mapFilenames)))
   const projectsDataRaw = await fetchArchive(projectsMeta, {
@@ -120,11 +120,8 @@ async function getProjectData(graphql) {
           html
           frontmatter {
             homepage
-            language
             license
             repo
-            repohost
-            templates
             title
             twitter
           }
@@ -149,7 +146,6 @@ async function getProjectData(graphql) {
           days
           projects {
             id
-            
             stars
           }
         }

@@ -65,7 +65,7 @@ const Project = ({ pageContext }) => {
     url,
     title,
     repo,
-    repohost,
+    // repohost,
     homepage,
     // stars,
     // followers,
@@ -89,7 +89,7 @@ const Project = ({ pageContext }) => {
           </DetailLink>
         )}
         {repo && (
-          <DetailLink href={`https://${repohost || 'github'}.com/${repo}`}>
+          <DetailLink href={`https://github.com/${repo}`}>
             {/*<EntypoIcon Icon={EntypoGithub} /> {repo} ({stars})*/}
             <EntypoIcon Icon={EntypoGithub} /> {repo}
           </DetailLink>

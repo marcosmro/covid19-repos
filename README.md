@@ -1,6 +1,6 @@
 # covid19repos.com
 
-[staticgen.com](http://covid19repos.com), a list of GitHub repositories with COVID-19 resources.
+[covid19repos.com](https://covid19repos.com), a list of GitHub repositories with COVID-19 resources.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3d1394c8-af2f-46f0-bf95-b09acad4f0e8/deploy-status)](https://app.netlify.com/sites/eloquent-ramanujan-c89adb/deploys)
 

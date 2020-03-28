@@ -27,7 +27,7 @@ module.exports = {
     footerMarkdown: oneLine`
       COVID19repos.com is ... .
     `,
-    copyrightName: 'MMR',
+    copyrightName: 'M2R',
     promoMarkdown: stripIndent`
       ## Get started with one click!
 
@@ -62,16 +62,18 @@ module.exports = {
       { field: 'title', label: 'Title' },
     ],
     filters: [
-      { field: 'types', emptyLabel: 'Any Type', multiple: true },
-      // { field: 'language', emptyLabel: 'Any Language', multiple: true },
+      { field: 'type', emptyLabel: 'Any Type', multiple: true },
+      { field: 'language', emptyLabel: 'Any Language', multiple: true },
+      { field: 'format', emptyLabel: 'Any Format', multiple: true },
       // { field: 'templates', emptyLabel: 'Any Template', multiple: true },
-      // { field: 'license', emptyLabel: 'Any License', multiple: true },
+      { field: 'license', emptyLabel: 'Any License', multiple: true },
     ],
     fields: [
-      { name: 'types', label: 'Types' },
-      // { name: 'language', label: 'Languages' },
+      { name: 'type', label: 'Types' },
+      { name: 'language', label: 'Languages' },
+      { name: 'format', label: 'Formats' },
       // { name: 'templates', label: 'Templates' },
-      // { name: 'license', label: 'License' },
+      { name: 'license', label: 'License' },
     ],
   },
   plugins: [

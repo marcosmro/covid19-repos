@@ -188,7 +188,6 @@ export const query = graphql`
         days
         projects {
           id
-         
           forks
           issues
           stars
@@ -198,15 +197,13 @@ export const query = graphql`
     allMarkdownRemark {
       nodes {
         frontmatter {
-          types
+          type
+          language
+          format
           description
           homepage
-          language
           license
-          repohost
-          startertemplaterepo
           repo
-          templates
           title
           twitter
         }
