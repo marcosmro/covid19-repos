@@ -67,8 +67,8 @@ const Project = ({ pageContext }) => {
     repo,
     repohost,
     homepage,
-    stars,
-    followers,
+    // stars,
+    // followers,
     twitter,
     content,
     fields,
@@ -84,12 +84,14 @@ const Project = ({ pageContext }) => {
         </DetailLink>
         {twitter && (
           <DetailLink href={`https://twitter.com/${twitter}`}>
-            <EntypoIcon Icon={EntypoTwitter} /> {twitter} ({followers})
+            {/*<EntypoIcon Icon={EntypoTwitter} /> {twitter} ({followers})*/}
+            <EntypoIcon Icon={EntypoTwitter} /> {twitter}
           </DetailLink>
         )}
         {repo && (
           <DetailLink href={`https://${repohost || 'github'}.com/${repo}`}>
-            <EntypoIcon Icon={EntypoGithub} /> {repo} ({stars})
+            {/*<EntypoIcon Icon={EntypoGithub} /> {repo} ({stars})*/}
+            <EntypoIcon Icon={EntypoGithub} /> {repo}
           </DetailLink>
         )}
       </div>

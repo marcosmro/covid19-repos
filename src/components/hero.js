@@ -21,7 +21,7 @@ const LogoLink = styled(Link)`
 `
 
 const HeroContainer = styled.div`
-  background: linear-gradient(45deg, #4d9abf, #00c7b7);
+  background: linear-gradient(45deg, #ff0084, #33001b);
   text-align: center;
   padding: 29px 0;
   position: relative;
@@ -39,7 +39,7 @@ const HeroHeading = styled.h1`
 `
 const HeroSubheading = styled.h2`
   margin: 0 auto 40px;
-  color: #313d3e;
+  color: #fff;
   max-width: 660px;
   line-height: 1.5;
   font-weight: 100;

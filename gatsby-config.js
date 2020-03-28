@@ -21,9 +21,9 @@ module.exports = {
     description,
     socialPreviewImageFilename: 'staticgen.png',
     shareButtons: ['twitter', 'reddit'],
-    shareText: 'Check out StaticGen, a leaderboard of open source static site generators.',
+    shareText: 'Check out COVID19Repos.com, a leaderboard of COVID-19 projects and resources.',
     shareTextProjectStart: 'Check out ',
-    shareTextProjectEnd: ', an open source static site generator on the staticgen.com leaderboard.',
+    shareTextProjectEnd: ', a leaderboard of COVID-19 projects and resources.',
     footerMarkdown: oneLine`
       COVID19repos.com is ... .
     `,
