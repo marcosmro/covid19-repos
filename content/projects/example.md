@@ -5,11 +5,18 @@ repohost: github
 twitter: NA
 homepage: https://systems.jhu.edu/research/public-health/ncov/
 language:
+  - Java
   - C
+  - Python
+format:
+  - CSV
+  - Excel
 license:
   - NA
 templates:
   - Custom
+resourceType:
+  - Dataset
 description: A blog compiler.
 startertemplaterepo: blogc/blogc-netlify
 ---

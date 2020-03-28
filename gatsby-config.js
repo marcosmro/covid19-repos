@@ -62,14 +62,16 @@ module.exports = {
       { field: 'title', label: 'Title' },
     ],
     filters: [
-      { field: 'language', emptyLabel: 'Any Language', multiple: true },
-      { field: 'templates', emptyLabel: 'Any Template', multiple: true },
-      { field: 'license', emptyLabel: 'Any License', multiple: true },
+      { field: 'resourceType', emptyLabel: 'Any Resource Type', multiple: true },
+      // { field: 'language', emptyLabel: 'Any Language', multiple: true },
+      // { field: 'templates', emptyLabel: 'Any Template', multiple: true },
+      // { field: 'license', emptyLabel: 'Any License', multiple: true },
     ],
     fields: [
-      { name: 'language', label: 'Languages' },
-      { name: 'templates', label: 'Templates' },
-      { name: 'license', label: 'License' },
+      { name: 'resourceType', label: 'Resource Types' },
+      // { name: 'language', label: 'Languages' },
+      // { name: 'templates', label: 'Templates' },
+      // { name: 'license', label: 'License' },
     ],
   },
   plugins: [
