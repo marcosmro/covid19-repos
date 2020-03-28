@@ -62,11 +62,11 @@ const Title = styled.h4`
   font-weight: normal;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  white-space: nowrap;
+  // white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: ${props => (props.small ? '24px' : '30px')};
-  padding: ${props => (props.small ? '7px 18px 10px' : '0 18px 6px')};
+  font-size: ${props => (props.small ? '20px' : '28px')};
+  padding: ${props => (props.small ? '7px 18px 10px' : '16px 18px 17px')};
 `
 
 const Description = styled.p`

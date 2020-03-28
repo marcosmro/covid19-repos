@@ -1,5 +1,5 @@
 ---
-title: COVID-19 Data Repository by Johns Hopkins CSSE
+title: Example
 repo: CSSEGISandData/COVID-19
 repohost: github
 twitter: NA
