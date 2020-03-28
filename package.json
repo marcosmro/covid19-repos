@@ -1,7 +1,7 @@
 {
   "name": "covid19repos",
   "private": true,
-  "description": "covid19repos.com, a list of GitHub repositories with relevant COVID-19 resources.",
+  "description": "covid19repos.com, a list of GitHub repositories with COVID-19 resources.",
   "version": "3.0.0",
   "author": "@Netlify",
   "dependencies": {

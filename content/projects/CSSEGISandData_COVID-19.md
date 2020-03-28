@@ -3,6 +3,8 @@ title: COVID-19 Data Repository by Johns Hopkins CSSE
 repo: CSSEGISandData/COVID-19
 twitter: JHUSystems
 homepage: https://systems.jhu.edu/
+types: 
+  - Dataset
 description: Data repository for the 2019 Novel Coronavirus Visual Dashboard operated by the Johns Hopkins University Center for Systems Science and Engineering.
 ---
 

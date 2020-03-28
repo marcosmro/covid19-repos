@@ -198,6 +198,7 @@ export const query = graphql`
     allMarkdownRemark {
       nodes {
         frontmatter {
+          types
           description
           homepage
           language

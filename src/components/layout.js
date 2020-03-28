@@ -80,6 +80,8 @@ const Layout = ({ projectTitle, projectUrl, projectId, children }) => {
     <>
       <Global styles={globalStyles} />
 
+      <Banner>Site under construction. Projected release date: March 28</Banner>
+
       <Hero siteTitle={data.site.siteMetadata.title} shareText={shareText} shareUrl={shareUrl} />
       <Nav>
         <NavLink to="/about">About</NavLink>

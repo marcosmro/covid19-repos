@@ -15,8 +15,12 @@ license:
   - NA
 templates:
   - Custom
-resourceType:
+types:
   - Dataset
+  - Tool
+  - Project
+  - Slides
+  - Course
 description: A blog compiler.
 startertemplaterepo: blogc/blogc-netlify
 ---
