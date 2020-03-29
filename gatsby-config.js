@@ -17,7 +17,7 @@ module.exports = {
     image: 'https://staticgen.com/images/staticgen.png',
     repo: 'https://github.com/netlify/staticgen',
     homeTitle: 'COVID19Repos | Top COVID-19 Repos',
-    subtitle: 'A list of GitHub repos with COVID-19 resources',
+    subtitle: 'A list of GitHub repos with COVID-19 (coronavirus) resources',
     description,
     socialPreviewImageFilename: 'staticgen.png',
     shareButtons: ['twitter', 'reddit'],
@@ -25,7 +25,7 @@ module.exports = {
     shareTextProjectStart: 'Check out ',
     shareTextProjectEnd: ', a leaderboard of COVID-19 projects and resources.',
     footerMarkdown: oneLine`
-      COVID19repos.com - Keep calm and carry on!
+      COVID19repos.com
     `,
     copyrightName: 'M2R',
     promoMarkdown: stripIndent`

@@ -2,9 +2,9 @@
 title: Contributing
 ---
 
-# Contributing
+# How can I add my repository to covid19repos.com?
 
-Each resource listed in this site is defined by a markdown file in the [content/projects](https://github.com/marcosmro/covid19-repos/tree/master/content/projects) folder. 
+Each repository listed in this site is defined by a markdown file in the [content/projects](https://github.com/marcosmro/covid19-repos/tree/master/content/projects) folder. 
 
 Everybody is welcome to contribute to COVID19Repos.com, just fork the [GitHub repo](https://github.com/marcosmro/covid19-repos), add a markdown file for the resource that you want to add, and send a pull request. Use our [resource template](https://raw.githubusercontent.com/marcosmro/covid19-repos/master/content/resource_template/template.md) as a reference to know what information you need to provide for your resource. 
  

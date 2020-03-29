@@ -62,7 +62,7 @@ const Hero = ({ siteTitle, shareUrl, shareText }) => (
         <LogoText>{siteTitle}</LogoText>
       </LogoLink>
     </HeroHeading>
-    <HeroSubheading><b>A List of GitHub Repos with COVID-19 Resources</b></HeroSubheading>
+    <HeroSubheading>A Ranked List of GitHub Repos with COVID-19 Resources</HeroSubheading>
 
     <ShareButtonGroup>
       {['twitter', 'reddit'].map(type => (

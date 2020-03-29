@@ -84,8 +84,9 @@ const Layout = ({ projectTitle, projectUrl, projectId, children }) => {
 
       <Hero siteTitle={data.site.siteMetadata.title} shareText={shareText} shareUrl={shareUrl} />
       <Nav>
-        <NavLink to="/about">About</NavLink>
-        <NavLink to="/contribute">Contribute</NavLink>
+        <NavLink to="/contribute">How can I add my repo?</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
+        {/*<NavLink to="/about">About</NavLink>*/}
         {/*<NavLink to="/support">Support</NavLink>*/}
         {/*<NavAnchor href="https://jamstack.org" target="_blank" rel="noopener noreferrer">*/}
         {/*  About JAMstack*/}
