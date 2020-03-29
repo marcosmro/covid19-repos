@@ -5,6 +5,10 @@ twitter: twitterusername (Optional)
 homepage: http://resourcehomepage.com (Optional)
 type: (Required. One or several types from the following list)
   - Software
+  - Website
+  - API
+  - Analysis Tool
+  - Model
   - Dataset
   - Figure
   - Poster

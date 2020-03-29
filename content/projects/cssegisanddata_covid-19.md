@@ -1,5 +1,5 @@
 ---
-title: Johns Hopkins CSSE COVID-19 Data
+title: JHU CSSE COVID-19 Data
 repo: CSSEGISandData/COVID-19
 twitter: JHUSystems
 homepage: https://systems.jhu.edu/
