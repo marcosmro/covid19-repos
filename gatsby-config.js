@@ -105,6 +105,12 @@ module.exports = {
         path: `${__dirname}/content/pages`,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-162115057-1",
+      },
+    },
     `gatsby-plugin-emotion`,
   ],
 }
