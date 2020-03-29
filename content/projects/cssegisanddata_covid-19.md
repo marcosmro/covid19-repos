@@ -1,5 +1,5 @@
 ---
-title: COVID-19 Data Repository by Johns Hopkins CSSE
+title: Johns Hopkins CSSE COVID-19 Data
 repo: CSSEGISandData/COVID-19
 twitter: JHUSystems
 homepage: https://systems.jhu.edu/
@@ -10,7 +10,7 @@ language:
 format:
   - CSV
 license:
-  - N/A
+  - Non commercial
 description: Data repository for the 2019 Novel Coronavirus Visual Dashboard operated by the Johns Hopkins University Center for Systems Science and Engineering.
 
 ---

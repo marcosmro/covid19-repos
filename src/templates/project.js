@@ -79,21 +79,21 @@ const Project = ({ pageContext }) => {
       <SEO pageTitle={title} />
       <h1>{title}</h1>
       <div>
-        <DetailLink href={homepage}>
-          <EntypoIcon Icon={EntypoHome} /> {homepage}
-        </DetailLink>
-        {twitter && (
-          <DetailLink href={`https://twitter.com/${twitter}`}>
-            {/*<EntypoIcon Icon={EntypoTwitter} /> {twitter} ({followers})*/}
-            <EntypoIcon Icon={EntypoTwitter} /> {twitter}
-          </DetailLink>
-        )}
         {repo && (
           <DetailLink href={`https://github.com/${repo}`}>
             {/*<EntypoIcon Icon={EntypoGithub} /> {repo} ({stars})*/}
             <EntypoIcon Icon={EntypoGithub} /> {repo}
           </DetailLink>
         )}
+        {twitter && (
+          <DetailLink href={`https://twitter.com/${twitter}`}>
+            {/*<EntypoIcon Icon={EntypoTwitter} /> {twitter} ({followers})*/}
+            <EntypoIcon Icon={EntypoTwitter} /> {twitter}
+          </DetailLink>
+        )}
+        <DetailLink href={homepage}>
+          <EntypoIcon Icon={EntypoHome} /> {homepage}
+        </DetailLink>
       </div>
 
       <FieldsContainer>

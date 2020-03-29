@@ -120,6 +120,9 @@ async function getProjectData(graphql) {
           html
           frontmatter {
             homepage
+            type
+            language
+            format
             license
             repo
             title

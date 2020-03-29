@@ -1,8 +1,7 @@
 const { oneLine, stripIndent } = require('common-tags')
 
 const description = oneLine`
-  StaticGen is a leaderboard of the top open source static site generators. Promoting a static
-  approach to building websites.
+  COVID19Repos is a leaderboard of the top open source GitHub repositories with COVID-19 resources.
 `
 
 module.exports = {
@@ -15,13 +14,13 @@ module.exports = {
     `,
     author: `@netlify`,
     image: 'https://staticgen.com/images/staticgen.png',
-    repo: 'https://github.com/netlify/staticgen',
+    repo: 'https://github.com/marcosmro/covid19-repos',
     homeTitle: 'COVID19Repos | Top COVID-19 Repos',
     subtitle: 'A list of GitHub repos with COVID-19 (coronavirus) resources',
     description,
     socialPreviewImageFilename: 'staticgen.png',
     shareButtons: ['twitter', 'reddit'],
-    shareText: 'Check out COVID19Repos.com, a leaderboard of COVID-19 projects and resources.',
+    shareText: 'Check out COVID19Repos.com, a leaderboard of COVID-19 resources.',
     shareTextProjectStart: 'Check out ',
     shareTextProjectEnd: ', a leaderboard of COVID-19 projects and resources.',
     footerMarkdown: oneLine`
