@@ -1,8 +1,8 @@
 ---
 title: Resource title (Required)
 repo: githubusername/repo (Required)
-twitter: twitterusername (Required)
-homepage: http://resourcehomepage.com (Required)
+twitter: twitterusername (Optional)
+homepage: http://resourcehomepage.com (Optional)
 type: (Required. One or several types from the following list)
   - Software
   - Dataset
@@ -13,7 +13,7 @@ type: (Required. One or several types from the following list)
   - Course
   - Documentation
   - (Enter a new resource type)
-language: (Optional. One or several languages from the following list. Use N/A for no value)
+language: (Required. One or several languages from the following list. Use N/A for no value)
   - JavaScript
   - Python
   - R
@@ -34,7 +34,7 @@ language: (Optional. One or several languages from the following list. Use N/A f
   - Julia
   - SQL
   - (Enter a new language)
-format: (Optional. One or several languages from the following list. Use N/A for no value)
+format: (Required. One or several languages from the following list. Use N/A for no value)
   - CSV
   - Text
   - JSON
@@ -47,15 +47,15 @@ format: (Optional. One or several languages from the following list. Use N/A for
   - ZIP
   - GZ
   - (Enter a new format)
-license: (Optional. One or several languages from the following list. Use N/A for no value)
+license: (Required. One or several languages from the following list. Use N/A for no value)
   - MIT
   - Apache 2.0
   - GPL-2.0
   - GPL-3.0
   - BSD-3-Clause
   - (Enter a new license)
-description: Brief resource description (required)
+description: Brief resource description (Required)
 
 ---
 
-Resource description
+Resource description (Required)

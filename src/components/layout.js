@@ -86,6 +86,7 @@ const Layout = ({ projectTitle, projectUrl, projectId, children }) => {
       <Nav>
         <NavLink to="/about">About</NavLink>
         <NavLink to="/contribute">Contribute</NavLink>
+        {/*<NavLink to="/support">Support</NavLink>*/}
         {/*<NavAnchor href="https://jamstack.org" target="_blank" rel="noopener noreferrer">*/}
         {/*  About JAMstack*/}
         {/*</NavAnchor>*/}
