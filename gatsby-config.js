@@ -1,4 +1,4 @@
-const { oneLine, stripIndent } = require('common-tags')
+const {oneLine, stripIndent} = require('common-tags')
 
 const description = oneLine`
   COVID19Repos is a leaderboard of the top open source GitHub repositories with COVID-19 resources.
@@ -37,14 +37,14 @@ module.exports = {
       here](https://www.netlify.com/docs/deploy_button/).
     `,
     navLinks: [
-      { url: 'https://jamstack.org', text: 'About JAMstack' },
-      { url: 'https://headlesscms.org', text: 'Need a Static CMS?' },
+      {url: 'https://jamstack.org', text: 'About JAMstack'},
+      {url: 'https://headlesscms.org', text: 'Need a Static CMS?'},
     ],
     fallbackSortField: 'title',
     sorts: [
-      { field: 'stars', label: 'Stars (7 days)', reverse: true, days: 7 },
-      { field: 'stars', label: 'Stars (30 days)', reverse: true, days: 30 },
-      { field: 'stars', label: 'Stars (total)', reverse: true },
+      {field: 'stars', label: 'Stars (7 days)', reverse: true, days: 7},
+      {field: 'stars', label: 'Stars (30 days)', reverse: true, days: 30},
+      {field: 'stars', label: 'Stars (total)', reverse: true},
       {
         field: 'followers',
         label: 'Followers (7 days)',
@@ -57,22 +57,22 @@ module.exports = {
         reverse: true,
         days: 30,
       },
-      { field: 'followers', label: 'Followers (total)', reverse: true },
-      { field: 'title', label: 'Title' },
+      {field: 'followers', label: 'Followers (total)', reverse: true},
+      {field: 'title', label: 'Title'},
     ],
     filters: [
-      { field: 'type', emptyLabel: 'Any Type', multiple: true },
-      { field: 'language', emptyLabel: 'Any Language', multiple: true },
-      { field: 'format', emptyLabel: 'Any Format', multiple: true },
+      {field: 'type', emptyLabel: 'Any Type', multiple: true},
+      {field: 'language', emptyLabel: 'Any Language', multiple: true},
+      {field: 'format', emptyLabel: 'Any Format', multiple: true},
       // { field: 'templates', emptyLabel: 'Any Template', multiple: true },
-      { field: 'license', emptyLabel: 'Any License', multiple: true },
+      {field: 'license', emptyLabel: 'Any License', multiple: true},
     ],
     fields: [
-      { name: 'type', label: 'Types' },
-      { name: 'language', label: 'Languages' },
-      { name: 'format', label: 'Formats' },
+      {name: 'type', label: 'Types'},
+      {name: 'language', label: 'Languages'},
+      {name: 'format', label: 'Formats'},
       // { name: 'templates', label: 'Templates' },
-      { name: 'license', label: 'License' },
+      {name: 'license', label: 'License'},
     ],
   },
   plugins: [
@@ -108,6 +108,12 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-162115057-1",
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: `ca-pub-4587417124982288`
       },
     },
     `gatsby-plugin-emotion`,
