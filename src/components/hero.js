@@ -72,11 +72,11 @@ const Hero = ({ siteTitle, shareUrl, shareText }) => (
     </HeroHeading>
     <HeroSubheading>A Ranked List of GitHub Repos with COVID-19 Resources</HeroSubheading>
 
-    {/*<ShareButtonGroup>*/}
-    {/*  {['twitter', 'reddit'].map(type => (*/}
-    {/*    <ShareButton key={type} type={type} shareText={shareText} shareUrl={shareUrl} />*/}
-    {/*  ))}*/}
-    {/*</ShareButtonGroup>*/}
+    <ShareButtonGroup>
+      {['twitter', 'reddit'].map(type => (
+        <ShareButton key={type} type={type} shareText={shareText} shareUrl={shareUrl} />
+      ))}
+    </ShareButtonGroup>
 
     <GitHubCorner
       href="https://github.com/marcosmro/covid19-repos"
@@ -85,11 +85,11 @@ const Hero = ({ siteTitle, shareUrl, shareText }) => (
       svgStyle={{ zIndex: 300 }}
     />
 
-    <div>
-      <a href="https://www.buymeacoffee.com/4cPUGijCR" target="_blank">
-        <img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee"
-             style={BuyMeACoffee} /></a>
-    </div>
+    {/*<div>*/}
+    {/*  <a href="https://www.buymeacoffee.com/4cPUGijCR" target="_blank">*/}
+    {/*    <img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee"*/}
+    {/*         style={BuyMeACoffee} /></a>*/}
+    {/*</div>*/}
 
   </HeroContainer>
 )
