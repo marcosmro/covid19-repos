@@ -59,6 +59,7 @@ license: (Required. One or several languages from the following list. Use N/A fo
   - Apache 2.0
   - GPL-2.0
   - GPL-3.0
+  - BSD-2-Clause
   - BSD-3-Clause
   - Non commercial
   - (Enter a new license)
