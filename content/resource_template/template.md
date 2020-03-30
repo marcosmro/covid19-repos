@@ -16,9 +16,12 @@ type: (Required. One or several types from the following list)
   - Presentation
   - Course
   - Documentation
+  - CLI
   - (Enter a new resource type)
 language: (Required. One or several languages from the following list. Use N/A for no value)
   - JavaScript
+  - Jupyter Notebook
+  - HTML
   - Python
   - R
   - MATLAB

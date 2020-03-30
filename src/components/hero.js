@@ -4,6 +4,8 @@ import React from 'react'
 import styled from '@emotion/styled'
 import GitHubCorner from 'react-github-corner'
 import ShareButton from './sharebutton'
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import { faVirus } from '@fortawesome/free-solid-svg-icons'
 
 const LogoText = styled.span`
   font-size: 76px;
@@ -55,11 +57,17 @@ const ShareButtonGroup = styled.div`
   }
 `
 
+const BuyMeACoffee = {
+  height: "40px",
+  borderRadius: "4px",
+  marginTop: "20px"
+};
+
 const Hero = ({ siteTitle, shareUrl, shareText }) => (
   <HeroContainer>
     <HeroHeading>
       <LogoLink to="/" title={siteTitle}>
-        <LogoText>{siteTitle}</LogoText>
+        <LogoText><FontAwesomeIcon icon={faVirus} /> {siteTitle}</LogoText>
       </LogoLink>
     </HeroHeading>
     <HeroSubheading>A Ranked List of GitHub Repos with COVID-19 Resources</HeroSubheading>
@@ -76,6 +84,13 @@ const Hero = ({ siteTitle, shareUrl, shareText }) => (
       size="100"
       svgStyle={{ zIndex: 300 }}
     />
+
+    {/*<div>*/}
+    {/*  <a href="https://www.buymeacoffee.com/4cPUGijCR" target="_blank">*/}
+    {/*    <img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee"*/}
+    {/*         style={BuyMeACoffee} /></a>*/}
+    {/*</div>*/}
+
   </HeroContainer>
 )
 
