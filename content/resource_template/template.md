@@ -7,16 +7,19 @@ type: (Required. One or several types from the following list)
   - Software
   - Website
   - API
-  - Analysis Tool
+  - Analysis
+  - Visualization
+  - Notebook
   - Model
   - Dataset
   - Figure
   - Poster
-  - Research Contribution
+  - Paper
   - Presentation
   - Course
   - Documentation
   - CLI
+  - Curated List
   - (Enter a new resource type)
 language: (Required. One or several languages from the following list. Use N/A for no value)
   - JavaScript
@@ -61,6 +64,7 @@ license: (Required. One or several languages from the following list. Use N/A fo
   - GPL-3.0
   - BSD-2-Clause
   - BSD-3-Clause
+  - CC0-1.0
   - Non commercial
   - (Enter a new license)
 description: Brief resource description (Required)

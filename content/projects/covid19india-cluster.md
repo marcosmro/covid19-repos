@@ -5,7 +5,7 @@ twitter: covid19indiaorg
 homepage: https://cluster.covid19india.org/
 type:
   - Software 
-  - Analysis Tool
+  - Analysis
 language:
   - JavaScript
 format:

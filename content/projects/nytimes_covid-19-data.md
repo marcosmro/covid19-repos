@@ -10,7 +10,7 @@ language:
 format:
   - CSV
 license:
-  - Non commercial
+  - N/A
 description: An ongoing repository of data on coronavirus cases and deaths in the U.S.
 
 ---

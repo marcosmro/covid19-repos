@@ -6,7 +6,7 @@ homepage: https://foldingathome.org/
 type: 
   - Dataset
   - Software
-  - Analysis Tool
+  - Analysis
 language:
   - Python
 format:

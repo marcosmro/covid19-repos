@@ -91,9 +91,11 @@ const Project = ({ pageContext }) => {
             <EntypoIcon Icon={EntypoTwitter} /> {twitter}
           </DetailLink>
         )}
+        {homepage &&
         <DetailLink href={homepage}>
-          <EntypoIcon Icon={EntypoHome} /> {homepage}
+          <EntypoIcon Icon={EntypoHome}/> {homepage}
         </DetailLink>
+        }
       </div>
 
       <FieldsContainer>
