@@ -7,7 +7,7 @@ type:
   - Visualization
   - Website
 language:
-  - Javascript
+  - JavaScript
 format:
   - N/A
 license:
