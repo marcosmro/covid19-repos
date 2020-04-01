@@ -80,7 +80,7 @@ const Layout = ({ projectTitle, projectUrl, projectId, children }) => {
     <>
       <Global styles={globalStyles} />
 
-      <Banner>COVID19Repos.com was released on March 29 and it is being continuously updated. Feel free to <a href="/contribute"> suggest your repo</a></Banner>
+      {/*<Banner>Feel free to <a href="/contribute"> add your repo</a></Banner>*/}
 
       <Hero siteTitle={data.site.siteMetadata.title} shareText={shareText} shareUrl={shareUrl} />
       <Nav>

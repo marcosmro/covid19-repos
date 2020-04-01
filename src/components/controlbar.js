@@ -21,6 +21,12 @@ const DropdownRow = styled.div`
   }
 `
 
+const BuyMeACoffee = {
+  height: "40px",
+  borderRadius: "4px",
+  marginTop: "20px"
+};
+
 const ControlBar = ({
   currentFilter,
   currentSort,
@@ -50,6 +56,13 @@ const ControlBar = ({
         onChange={onChangeSort}
       />
     </DropdownGroup>
+
+    <div>
+      <a href="https://www.buymeacoffee.com/4cPUGijCR" target="_blank">
+        <img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee"
+             style={BuyMeACoffee} /></a>
+    </div>
+
   </DropdownRow>
 )
 

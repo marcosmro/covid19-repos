@@ -57,12 +57,6 @@ const ShareButtonGroup = styled.div`
   }
 `
 
-const BuyMeACoffee = {
-  height: "40px",
-  borderRadius: "4px",
-  marginTop: "20px"
-};
-
 const Hero = ({ siteTitle, shareUrl, shareText }) => (
   <HeroContainer>
     <HeroHeading>
@@ -84,12 +78,6 @@ const Hero = ({ siteTitle, shareUrl, shareText }) => (
       size="100"
       svgStyle={{ zIndex: 300 }}
     />
-
-    {/*<div>*/}
-    {/*  <a href="https://www.buymeacoffee.com/4cPUGijCR" target="_blank">*/}
-    {/*    <img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee"*/}
-    {/*         style={BuyMeACoffee} /></a>*/}
-    {/*</div>*/}
 
   </HeroContainer>
 )
