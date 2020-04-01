@@ -4,7 +4,6 @@ repo: mine-cetinkaya-rundel/covid19-r
 type: 
   - Curated Collection
   - Dataset
-  - Software
   - Visualization
   - Blog Post
   - Video

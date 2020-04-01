@@ -4,7 +4,6 @@ repo: nzherald/nz-covid19-data
 twitter: vizowl
 type: 
   - Dataset
-  - Software
   - Analysis
 language:
   - R

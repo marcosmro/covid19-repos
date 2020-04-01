@@ -3,7 +3,6 @@ title: Corona Data Scraper
 repo: covidatlas/coronadatascraper
 homepage: https://coronadatascraper.com/
 type: 
-  - Software
   - Data Scraper
   - Dataset
 language:

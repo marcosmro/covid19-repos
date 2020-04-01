@@ -4,7 +4,6 @@ repo: someshkar/covid19india-cluster
 twitter: covid19indiaorg
 homepage: https://cluster.covid19india.org/
 type:
-  - Software 
   - Analysis
 language:
   - JavaScript

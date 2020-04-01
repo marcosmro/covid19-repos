@@ -3,7 +3,6 @@ title: Awesome COVID-19 resources
 repo: fnielsen/awesome-covid-19-resources
 type: 
   - Curated Collection
-  - Software
   - Dataset
   - Analysis
   - Visualization

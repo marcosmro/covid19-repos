@@ -3,7 +3,6 @@ title: COVID-19 Australia Status
 repo: nytimes/covid-19-data
 homepage: https://covid-19-au.com/
 type: 
-  - Software
   - Website
   - Visualization
   - Analysis

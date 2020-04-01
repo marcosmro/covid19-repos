@@ -4,7 +4,6 @@ repo: NovelCOVID/API
 twitter: 
 homepage: https://corona.lmao.ninja/
 type:
-  - Software
   - API
 language:
   - JavaScript

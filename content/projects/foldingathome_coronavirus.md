@@ -5,7 +5,6 @@ twitter: foldingathome
 homepage: https://foldingathome.org/
 type: 
   - Dataset
-  - Software
   - Analysis
 language:
   - Python

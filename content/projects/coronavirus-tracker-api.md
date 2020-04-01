@@ -3,7 +3,6 @@ title: Coronavirus Tracker API
 repo: ExpDev07/coronavirus-tracker-api
 homepage: https://coronavirus-tracker-api.herokuapp.com/
 type:
-  - Software
   - API
 language:
   - Python

@@ -3,7 +3,6 @@ title: COVID-19 France Data
 repo: opencovid19-fr/data
 type: 
   - Dataset
-  - Software
 language:
   - JavaScript
   - Shell

@@ -3,7 +3,6 @@ title: Coronavirus Command-Line Tracker
 repo: ahmadawais/corona-cli
 twitter: MrAhmadAwais
 type:
-  - Software
   - CLI
 language:
   - JavaScript

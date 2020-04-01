@@ -4,7 +4,6 @@ repo: githubusername/repo (Required)
 twitter: twitterusername (Optional)
 homepage: http://resourcehomepage.com (Optional)
 type: (Required. One or several types from the following list)
-  - Software
   - Website
   - API
   - Analysis
